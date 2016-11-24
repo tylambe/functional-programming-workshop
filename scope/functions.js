@@ -155,7 +155,6 @@
           var innerIncrementingFn = function () {
             counterInOuterScope = counterInOuterScope + 1;
             ACTUAL = counterInOuterScope;
-            console.log(ACTUAL);
           };
 
           innerIncrementingFn();
